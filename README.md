@@ -9,10 +9,12 @@ on:
 #jobs
 #should be inside the workflow
 jobs:
-#steps
-#should be inside the job 
+
   say-hello:
     runs-on: ubunu-latest
+#steps
+#should be inside the job 
+
     steps:
       - name: say hello to everyone
         run: echo "hello dosto"
